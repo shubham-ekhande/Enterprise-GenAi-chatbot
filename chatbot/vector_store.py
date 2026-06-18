@@ -1,0 +1,18 @@
+from langchain_community.vectorstores import Chroma
+
+# =========================
+# CREATE VECTOR DATABASE
+# =========================
+
+def create_vector_store(chunks, embeddings):
+
+    vectorstore = Chroma.from_documents(
+
+        documents=chunks,
+
+        embedding=embeddings,
+
+        persist_directory="chroma_db"
+    )
+
+    return vectorstore

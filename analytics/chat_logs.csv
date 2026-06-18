@@ -1,0 +1,37 @@
+timestamp,question,mode,response_time
+2026-05-09 10:44:48.108739,What is Data Science,General,28.46
+2026-05-09 11:03:44.509574,What is the Recip,General,39.26
+2026-05-09 11:21:20.264705,Explain ETL process.,General,14.78
+2026-05-09 11:23:35.846211,How to improve coding skills?,General,11.11
+2026-05-09 11:32:13.302213,Who is the Prime Minister of India?,General,3.95
+2026-05-09 11:33:07.603096,What is gravity?,General,2.94
+2026-05-09 11:34:30.315574,What is Flexbox in CSS,General,4.45
+2026-05-09 11:42:50.281334,भारताची राजधानी काय आहे?,General,33.49
+2026-05-09 11:44:01.607484,AI क्या है?,General,6.0
+2026-05-09 11:45:05.164357,मशीन लर्निंग म्हणजे काय?,General,25.31
+2026-05-09 11:49:30.280934,What is media Query,General,10.54
+2026-05-12 11:23:39.799234,write a python program for even odd number with function,General,16.32
+2026-05-20 12:03:57.580791,write a python program even odd using function,General,19.99
+2026-05-20 16:15:25.652251,hello,General,9.52
+2026-05-20 16:16:08.177616,write a python code to reverse a string,General,9.97
+2026-05-28 10:33:02.611593,hello,General,1.83
+2026-05-28 10:34:33.200618,what is my name,General,4.11
+2026-05-28 10:41:42.437292,heyy,General,6.42
+2026-05-28 10:42:03.107163,whats my name,General,4.0
+2026-05-28 10:49:14.993927,hello,General,6.29
+2026-05-28 10:49:28.377231,my name ?,General,0.89
+2026-05-28 10:49:44.420202,what is my name,General,4.25
+2026-05-28 10:59:40.962141,heyy,General,7.41
+2026-05-28 10:59:58.213231,what is my name,General,3.88
+2026-05-28 11:00:15.915164,what is my name,PDF,10.02
+2026-05-28 11:00:38.883408,what is my qualification,PDF,12.07
+2026-05-28 11:01:07.539383,what is my projects,PDF,9.49
+2026-05-28 11:01:31.177002,prime minister of india ?,PDF,6.94
+2026-05-28 11:02:08.010919,write a program to find even or odd,PDF,5.66
+2026-05-28 11:02:22.164259,write a program to find even or odd,General,9.2
+2026-06-18 10:40:13.169279,heyyy,General,12.27
+2026-06-18 10:41:08.412491,who am i,General,0.86
+2026-06-18 10:41:13.401657,who am i.,General,1.19
+2026-06-18 10:41:31.578499,who am i.,PDF,2.49
+2026-06-18 10:41:42.343036,who am i,PDF,1.41
+2026-06-18 10:42:00.466050,describe my projects,PDF,1.94
