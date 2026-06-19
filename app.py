@@ -14,18 +14,18 @@ from chatbot.utils import save_uploaded_file
 from analytics.logger import log_chat
 
 
-# =========================
+
 # PAGE CONFIG
-# =========================
+
 
 st.set_page_config(
     page_title="Enterprise AI Chatbot",
     layout="wide"
 )
 
-# =========================
+
 # TITLE
-# =========================
+
 
 st.title("🤖 Enterprise Generative AI Chatbot")
 
@@ -33,9 +33,9 @@ st.write(
     "Ask general questions or upload PDF for document Q&A."
 )
 
-# =========================
+
 # SIDEBAR
-# =========================
+
 
 st.sidebar.title("📄 Upload Company PDF")
 
@@ -44,18 +44,18 @@ uploaded_file = st.sidebar.file_uploader(
     type=["pdf"]
 )
 
-# =========================
+
 # LOAD FAST LLM
-# =========================
+
 
 general_llm = OllamaLLM(
     model="llama3.2:1b",
     base_url="http://127.0.0.1:11434"
 )
 
-# =========================
+
 # CACHE PDF PROCESSING
-# =========================
+
 
 @st.cache_resource
 def process_pdf(save_path):
@@ -78,17 +78,17 @@ def process_pdf(save_path):
     return qa_chain
 
 
-# =========================
+
 # USER INPUT
-# =========================
+
 
 user_question = st.text_input(
     "Ask Anything"
 )
 
-# =========================
+
 # PDF MODE
-# =========================
+
 
 if uploaded_file is not None:
 
@@ -158,9 +158,9 @@ if uploaded_file is not None:
             f"Error: {str(e)}"
         )
 
-# =========================
+
 # GENERAL AI MODE
-# =========================
+
 
 else:
 
@@ -220,9 +220,9 @@ else:
                     f"Error: {str(e)}"
                 )
 
-# =========================
+
 # ANALYTICS DASHBOARD
-# =========================
+
 
 st.divider()
 

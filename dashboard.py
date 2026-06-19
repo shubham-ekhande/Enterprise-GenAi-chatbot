@@ -7,9 +7,6 @@ df = pd.read_csv(
     "analytics/chat_logs.csv"
 )
 
-# =========================
-# METRICS
-# =========================
 
 total_questions = len(df)
 
@@ -48,9 +45,8 @@ col4.metric(
     f"{avg_response} sec"
 )
 
-# =========================
 # CHARTS
-# =========================
+
 
 st.subheader("📈 Question Types")
 
@@ -58,9 +54,9 @@ mode_counts = df["mode"].value_counts()
 
 st.bar_chart(mode_counts)
 
-# =========================
+
 # RESPONSE TIME
-# =========================
+
 
 st.subheader("⚡ Response Time")
 
@@ -68,9 +64,9 @@ st.line_chart(
     df["response_time"]
 )
 
-# =========================
+
 # RECENT QUESTIONS
-# =========================
+
 
 st.subheader("💬 Recent Questions")
 
